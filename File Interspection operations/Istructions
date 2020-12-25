@@ -1,0 +1,26 @@
+# HEALTH MANAGEMENT SYSTEM
+"""
+1. Three client - harry, rohan, hammad/
+2. 
+   2.1 make three files for food/
+   2.2 make three files for exercise/
+3. 
+   3.1 write a function that takes an input client name
+   3.2 that function takes an input for food & execise
+   3.3 that function takes an input food & execise done
+   3.4 Then that function will write that items in the respected file
+   3.5 Also include the time of thing done
+4. 
+   4.1 That same function will also retrive the information
+   4.2 the function will takes an input client name
+   4.3 that function takes an input for food & execise
+   4.4 that function will return that info and prnt that
+"""
+
+# Given
+def getDate():
+    import datetime
+    return datetime.datetime.now()
+
+print(getDate())
+# Given
