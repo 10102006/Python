@@ -302,6 +302,7 @@ def GenerateWinStates(n_rows=3, n_columns=3):
 
     return winstates
 
+print('Hello world')
 
 # ? Implementation
 
